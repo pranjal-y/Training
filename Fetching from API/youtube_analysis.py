@@ -6,7 +6,7 @@ import csv
 
 
 api_key = 'Enter your key'
-channel_id = 'UCnz-ZXXER4jOvuED5trXfEA' #https://commentpicker.com/youtube-channel-id.php
+channel_id = '--' #https://commentpicker.com/youtube-channel-id.php
 
 youtube =build('youtube','v3',developerKey = api_key) #.json file for 0auth
 
