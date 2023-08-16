@@ -6,8 +6,8 @@ url = "https://imdb8.p.rapidapi.com/auto-complete"
 querystring = {"q":"game of thr","s":"spiderman"}
 
 headers = {
-	"X-RapidAPI-Key": "4e246d96f5mshbe6cfe2fb54dfe0p1db841jsn79fb227bbd4a",
-	"X-RapidAPI-Host": "imdb8.p.rapidapi.com"
+	"X-RapidAPI-Key": "Paste here",
+	"X-RapidAPI-Host": "Host"
 }
 
 response = requests.get(url,headers=headers, params=querystring)
